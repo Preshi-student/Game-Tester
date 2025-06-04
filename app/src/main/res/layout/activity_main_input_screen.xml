@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainInputScreenActivity">
+
+    <EditText
+        android:id="@+id/dateTxt"
+        android:layout_width="285dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/minutesTxt"
+        android:layout_width="298dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/genreTxt"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/genreTxt"
+        android:layout_width="298dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <RadioButton
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Rating"
+
+
+
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="174dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="117dp"
+        android:text="Add Entry"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/detailsBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="183dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="124dp"
+        android:text="Clear Inputs"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/detailsBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/detailsBtn"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="61dp"
+        android:text="Go to details"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
